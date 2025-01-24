@@ -20,7 +20,7 @@ function listarAmigos() {
     listaAmigos.innerHTML = '';
     // Percorre cada nome no array de amigos
     amigos.forEach(amigo => {
-        // Cria um novo elemento de lista para cada amigo
+        // Cria um novo elemento de (li) lista para cada amigo
         let itemLista = document.createElement('li');
         // Adiciona o nome do amigo ao texto do elemento li
         itemLista.textContent = amigo;
